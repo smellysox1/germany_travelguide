@@ -1,6 +1,6 @@
 
 function checkBlood(){
-document.getElementById("details").innerHTML = "   <input type = "text" id = "details" placeholder = "mmmmm yes "+document.getElementById("details").value+"">"
+console.error("hahahahahaha LOL computer ded");
 }
 nosex=0;
 nosey=0;
