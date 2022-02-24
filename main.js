@@ -5,7 +5,7 @@ document.getElementById("details").innerHTML = "   <input type = "text" id = "de
 nosex=0;
 nosey=0;
 function preload(){
-clown_nose=loadImage("https://i.postimg.cc/bv945JxQ/moustache-png-17171.png");
+clown_nose=loadImage("https://postimg.cc/FfCVyLpj");
 }
 function setup(){
 canvas = createCanvas(400,300);
