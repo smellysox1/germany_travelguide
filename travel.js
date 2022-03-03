@@ -19,7 +19,7 @@ image(video, 0,0, 400,300);
 fill(255,0,0);
 stroke(254,0,0);
 //circle(nosex,nosey,20);
-image(clown_nose,nosex,nosey,70,70);
+image(clown_nose,nosex,nosey,100,100);
 }
 function take_snapshot(){
     save("funny_moustache.png");
