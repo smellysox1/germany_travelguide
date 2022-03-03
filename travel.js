@@ -2,7 +2,7 @@
 nosex=0;
 nosey=0;
 function preload(){
-clown_nose=loadImage("https://i.postimg.cc/bv945JxQ/moustache-png-17171.png");
+clown_nose=loadImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSybDnOblfIPLD8CKj1sdRYT-VvOKKS6ITnVKHZuAhDE22UFxJK4CoyCylzut65s-VXTls&usqp=CAU");
 }
 function setup(){
 canvas = createCanvas(400,300);
