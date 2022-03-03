@@ -1,11 +1,8 @@
 
-function checkBlood(){
-console.error("hahahahahaha LOL computer ded");
-}
 nosex=0;
 nosey=0;
 function preload(){
-clown_nose=loadImage("https://postimg.cc/FfCVyLpj");
+clown_nose=loadImage("https://i.postimg.cc/bv945JxQ/moustache-png-17171.png");
 }
 function setup(){
 canvas = createCanvas(400,300);
