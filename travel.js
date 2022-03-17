@@ -4,11 +4,12 @@ nosey=0;
 function preload(){
 clown_nose=loadImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSybDnOblfIPLD8CKj1sdRYT-VvOKKS6ITnVKHZuAhDE22UFxJK4CoyCylzut65s-VXTls&usqp=CAU");
 }
+
 function setup(){
-canvas = createCanvas(50,50);
+canvas = createCanvas(400,300);
 canvas.center();
 video = createCapture(VIDEO);
-video.size(500,500);
+video.size(400,300);
 video.hide();
 
 poseNet = ml5.poseNet(video, modelLoaded);
@@ -18,11 +19,11 @@ function draw(){
 image(video, 0,0, 400,300);
 fill(255,0,0);
 stroke(254,0,0);
-
-image(clown_nose,nosex,nosey,800,800);
+//circle(nosex,nosey,20);
+image(clown_nose,nosex,nosey,700,700);
 }
 function take_snapshot(){
-    save("germanME.png");
+    save("funny_moustache.png");
 }
 function modelLoaded(){
     console.log("poseNet initialised");
@@ -30,8 +31,8 @@ function modelLoaded(){
 function gotPoses(results){
     if(results.length > 0){
         console.log(results);
-        nosex=results[0].pose.nose.x-100;
-        nosey=results[0].pose.nose.y-12;
+        nosex=results[0].pose.nose.x-30;
+        nosey=results[0].pose.nose.y-13;
         console.log("nose x: "+nosex);
         console.log("nose y: "+nosey);
         
