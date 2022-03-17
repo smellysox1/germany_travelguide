@@ -16,7 +16,8 @@ poseNet.on("pose",gotPoses);
 }
 function draw(){
 image(video, 0,0, 400,300);
-
+fill(255,0,0);
+stroke(254,0,0);
 
 image(clown_nose,nosex,nosey,800,800);
 }
